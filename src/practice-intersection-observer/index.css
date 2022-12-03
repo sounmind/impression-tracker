@@ -1,0 +1,26 @@
+.list-container {
+  height: 500px;
+  background-color: lightgray;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.list {
+  background-color: lightgreen;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 10px;
+}
+
+.list-item {
+  background-color: lightcoral;
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#specificItem {
+  background-color: lightcyan;
+}
