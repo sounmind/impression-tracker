@@ -10,7 +10,6 @@
     "@types/node": "^16.18.4",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
-    "parcel": "^2.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -22,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:parcel": "parcel src/practice-intersection-observer/index.html"
+    "build:impression-tracker-example": "parcel build impression-tracker-example/index.html"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "parcel": "^2.8.0",
     "process": "^0.11.10"
   }
 }
