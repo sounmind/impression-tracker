@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@leesche/impression-tracker": "jsr:@leesche/impression-tracker@^0.0.1"
+  },
+  "scripts": {
+    "start": "deno run index.js"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@leesche/impression-tracker@^0.0.1": "jsr:@leesche/impression-tracker@0.0.1"
+    },
+    "jsr": {
+      "@leesche/impression-tracker@0.0.1": {
+        "integrity": "fd1009a87856ff7e4686502a0c54afe10a1e8e6ce90f5335ebe2b647e055c099"
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@leesche/impression-tracker@^0.0.1"
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@jsr/leesche__impression-tracker@^0.0.1"
+      ]
+    }
+  }
+}
